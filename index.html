@@ -34,12 +34,21 @@
         font-weight: 400;
         text-align: center;
       }
+
+      #copyright {
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+        text-align: center;
+        color: #4C4C4C;
+      }
     </style>
   	<script type="text/javascript">
       document.addEventListener("DOMContentLoaded", function(event) {
         var logo = document.getElementById("logo_homepage_link");
-        logo.style.backgroundImage = "url(http://duckduckbordeaux.com/ddg2.png)";
-        logo.style.backgroundSize = "210px 140px";
+        logo.style.backgroundImage = "url(http://duckduckbordeaux.com/ddg.png)";
+        logo.style.backgroundSize = "120px 120px";
+        logo.style.height = "150px"
 
         var search = document.getElementById("search_form_input_homepage");
         search.onkeypress = function(e) {
@@ -87,6 +96,7 @@
       	</div>
       </div>
       <div id="footer_homepage" class="foot-home  js-foot-home"></div>
+      <div id="copyright">Dax (the DuckDuckGo mascot), the word “DuckDuckGo”, and all related terrible puns are copyrighted by <a href="https://duckduckgo.com">DuckDuckGo</a></div>
     </div>
   </body>
 </html>
