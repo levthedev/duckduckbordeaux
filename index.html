@@ -29,6 +29,8 @@
       document.addEventListener("DOMContentLoaded", function(event) {
         var logo = document.getElementById("logo_homepage_link");
         logo.style.backgroundImage = "url(/ddg.png)";
+        logo.style.height = "200px";
+        logo.style.width = "200px";
         var search = document.getElementById("search_form_input_homepage");
         search.onkeypress = function(e) {
           e = e || window.event;
